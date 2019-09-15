@@ -1,0 +1,81 @@
+/*  
+Desktop
+ */
+@media screen and (max-width:992px)
+{
+  html{
+    font-size: 12px;
+  }
+  .wrapper{
+    width:720px;
+  }
+.emblem > img{
+    width: 30%;
+}
+button{
+  width: 40px;
+  height: 40px;
+}
+.source{
+  width:45%;
+}
+.page{
+  width: 45%
+}
+.footer > .footer__emblem > .icon__footer{
+  width: 30%
+}
+}
+/*
+  Tablet
+ */
+@media screen and (max-width:768px ){
+  html{
+    font-size: 11px;
+  }
+  .wrapper{
+    width: 650px;
+  }
+  .content{
+    width: 100%;
+    margin:0 0;
+  }
+  .sidebar{
+    width: 49.5%;
+    margin: 10px 0px;
+    margin-left: 3px;
+  }
+  .footer{
+    height: 50px;
+  }
+  .footer > .footer__emblem{
+    margin: 0 5px;
+  }
+}
+/*
+ Mobile
+ */
+@media screen and (max-width:667px ){
+  .wrapper{
+    width: 420px;
+  }
+  .sidebar{
+    width: 100%;
+  }
+  .footer{
+    height: 30px;
+  }
+  .footer > .footer__emblem > .icon__footer{
+  display: none;
+}
+.footer > .footer__emblem > h2 {
+    margin-top: 0px;
+}
+.emblem > img {
+display: none;
+  }
+  .content > .article__horizontal > .article{
+    width: 100%;
+
+  }
+}
