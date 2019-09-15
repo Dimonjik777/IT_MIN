@@ -10,8 +10,12 @@ h2{
     margin: 0 0;
 }
 h3{
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin: 0 0;
+}
+a{
+    text-decoration: none;
+    color:#000;
 }
 p{
     font-size: 1rem;
@@ -82,8 +86,9 @@ p{
 }
 .content{
     background-color: #F2F2F2FF;
-    width:60%;
+    width:65%;
     float:left;
+    margin-bottom: 30px;
     margin-left: 1rem;
     & > h2{
         padding-top: 10px;
@@ -94,8 +99,8 @@ p{
         & > .article{
             display: inline-block;
             vertical-align: top;
-            width: 45%;
-            padding-right:1.3rem;
+            width: 40%;
+           padding-right: 33px;
             padding-bottom: 1.4rem;
             & > h3{
                 & > a{
@@ -105,7 +110,8 @@ p{
                 }
             }
             & > img{
-                width:70%;
+                    width: 200px;
+                    height: 130px;
             } 
         }
     }
@@ -174,5 +180,24 @@ p{
     }
     a:hover{
         border-bottom: 0.1rem solid #000;
+    }
+}
+.article__view{
+    width: 100%;
+    margin: 10px 0;
+    & > .pubdate{
+        float:right;
+        margin: 5px 5px;
+    }
+    & > .article__view__image{
+        width: 90%;
+        margin-top: 5px
+    }
+    & > .article__view__text{
+    padding-right: 5px;
+    margin-right: 5px;
+    }
+    & > .article__view__title{
+        display: inline;
     }
 }

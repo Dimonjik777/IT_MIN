@@ -12,6 +12,9 @@ Desktop
 .emblem > img{
     width: 30%;
 }
+.article{
+  margin-right: 5px;
+}
 button{
   width: 40px;
   height: 40px;
@@ -55,9 +58,9 @@ button{
 /*
  Mobile
  */
-@media screen and (max-width:667px ){
+@media screen and (max-width:678px ){
   .wrapper{
-    width: 420px;
+    width: 380px;
   }
   .sidebar{
     width: 100%;
